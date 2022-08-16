@@ -35,3 +35,8 @@ Lorsqu'un programme est actif, le LCD montre une de trois pages:
 1. le nom du programme et la vitesse du programme.
 2. l'itération et le temps depuis le début du programme.
 3. la variable PWM (en pourcentage) et les signaux de la tour
+
+## NOTICE
+IN ALL THE VERSIONS BEFORE DIM_LCD228, SAT9N DOES NOT WORK
+
+DO NOT USE THE PROGRAMS WITH TIMERS IN old_programs IN NEW VERSIONS OF DIM_LCD WITHOUT MODIFICATION. DUE TO CHANGES WITH THE VARIABLE tempTime, THE PROGRAM WILL SKIP A STEP
